@@ -18,6 +18,37 @@
 - [Control and Control Design ](https://www.youtube.com/@ControlControlDesign)
 - [Graphical Realism Framework for Industrial Control Simulation (GRFICS)  ](https://github.com/Fortiphyd/GRFICSv2)
 
+** ICS/OT Cyber Security Books:**
+- "Hacking Exposed Industrial Control Systems: ICS and SCADA Security Secrets & Solutions" by Clint Bodungen, Stephen Hilt, Aaron Shbeeb, Bryan Singer and Kyle Wilhoit
+
+- "Practical Industrial Cyber Security: ICS, Industry 4.0 & IIoT" by Charles J. Brooks and Philip A. Craig, Jr.
+
+- "Industrial Cybersecurity"* by Pascal Ackerman
+
+- "Engineering-Grade OT Security: A Manager's Guide" by Andrew Ginter
+
+- Industrial Cybersecurity: Case Studies and Best Practices by Steve Mustard
+
+- "Industrial Network Security: Securing Critical Infrastructure Networks for Smart Grid, SCADA, and Other Industrial Control Systems" by Eric D. Knapp
+
+- Implementing IEC 62443 - A Pragmatic Approach to Cybersecurity by Michael D. Medoff and Patrick C. O'Brien
+
+- "Industrial Automation and Control Systems Security Principles" by Dr. Ronald Krutz
+
+- Countering Cyber Sabotage: Introducing Consequence-Driven, Cyber-Informed Engineering (CCE)" by Andrew Bochman and Sarah Freemen
+
+- "Sandworm: A New Era of Cyberwar and the Hunt for the Kremlin's Most Dangerous Hackers" by Andy Greenberg
+
+- "Countdown to Zero Day: Stuxnet and the Launch of the World's First Digital Weapons" by Kim Zetter
+
+
+
+
+
+
+
+  
+
 
 <h2>Support Me</h2>
 <p>If you've found my ICS security tools and ICSrank.com useful, consider buying me a coffee! Your support helps me continue developing innovative solutions to enhance OT device security and keep our infrastructure safe. Thank you! ☕🔒</p>

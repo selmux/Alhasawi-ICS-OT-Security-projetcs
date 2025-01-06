@@ -42,6 +42,17 @@
 
 - "Countdown to Zero Day: Stuxnet and the Launch of the World's First Digital Weapons" by Kim Zetter
 
+- "Robust Control System Networks" by Ralph Langner
+
+- "How to be OT Cybersecurity Professional" by Nebras Alqurashi
+
+- "Engineering-Grade OT Security: A manager's guide" by  Andrew Ginter
+
+- "SCADA Security: What's Broken and How To Fix It"  by  Andrew Ginter
+
+- "Secure Operations Technology" by  Andrew Ginter
+
+
 
 
 

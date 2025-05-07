@@ -18,6 +18,7 @@
 - [RealPars](https://www.youtube.com/@realpars)
 - [Control and Control Design ](https://www.youtube.com/@ControlControlDesign)
 - [Graphical Realism Framework for Industrial Control Simulation (GRFICS)  ](https://github.com/Fortiphyd/GRFICSv2)
+- [Labshock - OT Cybersecurity Lab](https://labshock.github.io/)
 - [ICS Training Available Through CISA  ](https://www.cisa.gov/resources-tools/programs/ics-training-available-through-cisa)
 
 ** ICS/OT Cyber Security Books:**

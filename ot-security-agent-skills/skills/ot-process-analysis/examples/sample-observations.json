@@ -1,0 +1,6 @@
+{
+  "case_id": "illustrative-only",
+  "observations": [
+    {"id":"example-1","time_utc":"2026-09-08T02:17:00Z","source":"example.pcap frame 42","protocol":"Modbus TCP","actor":"192.0.2.10","asset":"Example-PLC","target":"holding_register:100","operation":"setpoint_write","value":920,"evidence_stage":"command_observed","note":"Synthetic example, NOT an actual CTF observation"}
+  ]
+}

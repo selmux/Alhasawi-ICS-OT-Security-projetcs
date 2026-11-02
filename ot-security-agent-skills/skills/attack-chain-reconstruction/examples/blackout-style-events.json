@@ -1,0 +1,28 @@
+{
+  "events": [
+    {
+      "id": "demo-ssh",
+      "timestamp": "2026-09-08T02:00:00Z",
+      "source_ip": "203.0.113.50",
+      "destination_ip": "203.0.113.46",
+      "protocol": "SSH",
+      "action": "Example SSH login recorded",
+      "stage": "initial_access",
+      "confidence": "observed",
+      "evidence": [{"source": "synthetic_auth.log", "line": 12}]
+    },
+    {
+      "id": "demo-pivot",
+      "timestamp": "2026-09-08T02:05:00Z",
+      "source_ip": "10.1.0.30",
+      "destination_ip": "10.2.0.100",
+      "protocol": "TCP",
+      "action": "Example outbound connection to OT DMZ",
+      "stage": "lateral_movement",
+      "confidence": "inferred",
+      "related_to": ["demo-ssh"],
+      "rationale": "Synthetic example of an analyst-asserted relationship; do not treat as a real finding",
+      "evidence": [{"source": "synthetic_firewall.log", "line": 27}]
+    }
+  ]
+}

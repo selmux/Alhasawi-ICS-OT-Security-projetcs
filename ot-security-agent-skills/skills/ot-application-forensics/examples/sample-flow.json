@@ -1,0 +1,6 @@
+[
+  {"id":"tab1","type":"tab","label":"Plant Test"},
+  {"id":"fn1","type":"function","name":"Simulated parser","func":"return msg;","wires":[[]]},
+  {"id":"http1","type":"http request","name":"Historian test","url":"http://192.0.2.10:8086/query"},
+  {"id":"cfg","type":"influxdb","name":"Historian","password":"example-synthetic-password"}
+]

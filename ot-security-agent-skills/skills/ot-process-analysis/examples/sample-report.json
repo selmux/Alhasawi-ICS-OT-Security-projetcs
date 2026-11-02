@@ -1,0 +1,38 @@
+{
+  "case_id": "illustrative-only",
+  "summary": {
+    "observation_count": 1,
+    "operations": {
+      "setpoint_write": 1
+    },
+    "evidence_stages": {
+      "command_observed": 1
+    },
+    "assets": {
+      "Example-PLC": [
+        "example-1"
+      ]
+    }
+  },
+  "findings": [
+    {
+      "id": "example-1",
+      "source": "example.pcap frame 42",
+      "asset": "Example-PLC",
+      "target": "holding_register:100",
+      "operation": "setpoint_write",
+      "evidence_stage": "command_observed",
+      "time_utc": "2026-09-08T02:17:00Z",
+      "protocol": "Modbus TCP",
+      "actor": "192.0.2.10",
+      "value": 920,
+      "note": "Synthetic example, NOT an actual CTF observation",
+      "potential_risk": "May alter a controlled variable if accepted and applied; requires engineering scaling and telemetry to assess impact.",
+      "limitations": [
+        "Units/scaling not established; do not interpret raw value as engineering quantity",
+        "Command observation alone does not prove acceptance or physical effect"
+      ]
+    }
+  ],
+  "methodology": "Offline analyst-labelled evidence; no protocol parsing, command execution, threshold inference or physical-impact verification performed."
+}
